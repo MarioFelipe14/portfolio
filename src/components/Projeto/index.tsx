@@ -2,7 +2,7 @@ import Paragrafo from '../Paragrafo'
 import Titulo from '../Titulo'
 import { Card, LinkBotao } from './styles'
 
-const Projetos = () => (
+const Projeto = () => (
   <Card>
     <Titulo>Projeto Lista de tarefas</Titulo>
     <Paragrafo tipo="secundario">Lista de tarefas feitas com VueJs</Paragrafo>
@@ -10,4 +10,4 @@ const Projetos = () => (
   </Card>
 )
 
-export default Projetos
+export default Projeto
